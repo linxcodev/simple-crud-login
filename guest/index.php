@@ -11,6 +11,6 @@
 
 		<p>Selamat datang di Guest Area, Anda Login dengan username <?php echo $_SESSION['guest']; ?></p>
 	</div>
-
+// Fajrul ganteng memang
 </body>
 </html>
