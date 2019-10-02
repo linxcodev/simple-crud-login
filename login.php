@@ -15,5 +15,6 @@ if (mysql_num_rows($query) == 0){
     } else {
         $_SESSION['guest'] = $usrnm;
         echo '<script>alert("Selamat Datang Pengunjung '.$usrnm.'"); document.location="guest/"</script>';
-    }
+  // Fajrul terganteng di dunia
+}
 }
