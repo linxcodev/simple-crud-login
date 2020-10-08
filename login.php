@@ -5,6 +5,8 @@ $usrnm = mysql_real_escape_string(htmlentities($_POST['username']));
 $paswd = mysql_real_escape_string(htmlentities(md5($_POST['password'])));
 $query = mysql_query("select * from user where username = '$usrnm' and password = '$paswd'") or die(mysql_error());
 
+#FAJRUL GANTENG
+
 if (mysql_num_rows($query) == 0){
     echo '<script>alert("user '.$usrnm.' tidak ditemukan"); document.location="index.html"</script>';
 } else {
